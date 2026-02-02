@@ -1,3 +1,0 @@
-logger_config:
-  level: INFO
-vault_path: "./book"
