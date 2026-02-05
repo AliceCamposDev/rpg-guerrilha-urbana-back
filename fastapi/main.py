@@ -33,7 +33,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://alicecamposdev.github.io/"],
+    allow_origins=["https://alicecamposdev.github.io/","https://alicecamposdev.github.io/*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -68,3 +68,4 @@ async def api_root():
             "/api/redoc": "Documentação ReDoc",
         },
     }
+
