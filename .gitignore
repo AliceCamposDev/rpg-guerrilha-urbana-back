@@ -3,3 +3,6 @@ nginx.conf
 dockerfile
 docker-compose.yaml
 docker-compose.yml
+.obsidian/
+*.pyc
+__pycache__/
